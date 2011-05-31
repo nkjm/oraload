@@ -1,0 +1,11 @@
+SOFTWARE:
+    oraload.py
+
+OVERVIEW:
+    This is a super simple load testing tool for Oracle Database written in python.
+    User can initiate pre-fixed INSERT/SELECT workload to the Oracle Database with arbitrary number of threads.
+    Although setup of this tool is quite easy cause all you have to do is just run it like './oraload.py', I recommend you set 'sys_user' and 'sys_password' which you can see at the top section of the script file. By setting these parameters, oraload can create the required user and table for you.
+
+USAGE:
+    Refer to ./oraload.py --help
+
